@@ -1,0 +1,27 @@
+{
+  "name": "learning-gsap",
+  "version": "1.0.0",
+  "description": "learning gsap",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkankyilmaz/gsap-basic.git"
+  },
+  "keywords": [
+    "gsap",
+    "animation"
+  ],
+  "author": "hkankyilmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkankyilmaz/gsap-basic/issues"
+  },
+  "homepage": "https://github.com/hkankyilmaz/gsap-basic#readme",
+  "dependencies": {
+    "gsap": "^3.12.2"
+  }
+}
