@@ -1,5 +1,4 @@
-import { gsap } from "gsap";
-
+gsap.registerPlugin(Flip);
 let dogs = gsap.utils.toArray("figure");
 let bigDog = dogs[0];
 
