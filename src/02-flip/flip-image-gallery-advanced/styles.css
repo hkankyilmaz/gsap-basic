@@ -1,0 +1,35 @@
+* {
+  margin-right: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+figure,
+img {
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+.details {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
