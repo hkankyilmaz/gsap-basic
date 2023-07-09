@@ -5,56 +5,64 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-
   <main>
+    <h1>Flip Image Gallery</h1>
     <section>
-      <figure data-image="image-2">
-        <img src="./dogs/1.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/1.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/2.webp" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/2.webp" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/3.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/3.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/4.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/4.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/5.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/5.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/6.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/6.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/3.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/3.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/8.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/8.jpg" alt="dog" />
       </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/14.webp" alt="dog" />
-      </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/10.jpg" alt="dog" />
-      </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/11.jpeg" alt="dog" />
-      </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/12.jpg" alt="dog" />
-      </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/13.webp" alt="dog" />
-      </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/14.webp" alt="dog" />
-      </figure>
-      <figure data-image="image-2">
-        <img src="./dogs/1.jpg" alt="dog" />
+      <figure class="item" data-image="image-2">
+        <img width="200" height="200" src="./dogs/14.webp" alt="dog" />
       </figure>
     </section>
   </main>
+  <div class="selectedImage">
+    <h1>Selected Image</h1>
+
+    <div class="details">
+      <div class="selected-image"></div>
+    </div>
+    <p>@hkyilmaz</p>
+  </div>
+
+  <div class="detail">
+    <img />
+
+    <div class="content">
+      <div class="title">DOGS</div>
+      <div class="secondary">Dogs Title</div>
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure cum, est
+        amet delectus, blanditiis voluptatem laborum pariatur consequatur quae
+        voluptate, nisi. Laborum adipisci iste earum distinctio, fugit, quas
+        ipsa impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Iure cum, est amet delectus, blanditiis voluptatem laborum pariatur
+        consequatur quae voluptate, nisi. Laborum adipisci iste earum
+        distinctio, fugit, quas ipsa impedit.
+      </div>
+    </div>
+  </div>
 
   <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
