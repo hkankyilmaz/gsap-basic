@@ -1,8 +1,8 @@
 # FLIP iMAGE GALLERY
 
 🔸 Awesome Flip Image Gallery <br>
-🔸 Click and see live demo [here](https://learning-gsap.vercel.app/).<br>
-🔸 Click and see source-code [here](https://github.com/hkankyilmaz/learning-gsap/tree/main/src/02-flip/flip-image-gallery-advanced).
+🔸 Click and see live demo [here](https://learning-gsap.vercel.app/).
+
 
 ## 🔥 Technologies and Libraries <br>
 
